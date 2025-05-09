@@ -42,3 +42,25 @@
 
 ![image](https://github.com/user-attachments/assets/904350fb-75b1-4521-8c7b-52930cdea872)
 
+
+# AI Enhanced Trading System
+
+📈 这是一个用于黄金（XAUUSD）、美股指数（NAS100、SP500）和外汇市场的 AI 增强型交易系统。
+
+## 功能模块
+
+- 📈 TradingView Pine Script 指标（带英文注释）
+- 📊 AI 信号判断模块（GPT/Qwen/Claude）
+- 🤖 Telegram Bot 推送模块
+- 📰 新闻自动抓取 + 解析
+- 💻 MetaTrader 5 EA 支持
+
+## 如何使用？
+
+1. 将 `indicators/fib_ema_strategy.pine` 导入 TradingView
+2. 在 MT5 中加载 `mt5_ea/Fib_EMA_SupplyDemand.mq5`
+3. 修改 `config.py` 中的 API Key 和 Telegram Token
+4. 启动 Flask Webhook 服务
+5. 运行 `news_scraper.py` 获取实时新闻
+6. 使用 `ai_signal_analyzer.py` 获取 AI 判断结果
+
