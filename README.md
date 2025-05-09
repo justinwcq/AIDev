@@ -40,28 +40,5 @@
 
 欢迎提交 PR 和 Issue。请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 获取更多信息。
 
+![image](https://github.com/user-attachments/assets/904350fb-75b1-4521-8c7b-52930cdea872)
 
-AI-Trading-Bot-System/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-├── config.py
-├── ai_signal_analyzer.py
-├── news_scraper.py
-├── telegram_bot.py
-├── mt5_ea/
-│   ├── Fib_EMA_SupplyDemand.mq5
-│   └── TradeFunctions.mqh
-├── indicators/
-│   ├── fib_ema_strategy.pine
-│   ├── volume_divergence.pine
-│   ├── gmma_supply_demand.pine
-│   └── gann_fan_indicator.pine
-├── utils/
-│   ├── helpers.py
-│   └── logger.py
-└── data/
-    ├── fx_calendar.csv
-    ├── xauusd_signals.json
-    └── nas100_signals.csv
